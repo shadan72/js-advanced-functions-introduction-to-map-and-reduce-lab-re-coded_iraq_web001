@@ -17,5 +17,5 @@ const mapToDouble= function(Alist){
 }
 
 const mapToSquare=function(Alist){
-  const squar=Alist.map(x => x= Math.sqrt(x))
+  const squar=Alist.map(x => x= x ** 2);
 }

@@ -6,3 +6,7 @@ const mapToNegativize=function(Alist){
   return Negative;
 }
 
+const mapToNoChange= function(Alist){
+  const NoChange=Alist.map(x => x=x)
+  return NoChange;
+}

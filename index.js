@@ -21,14 +21,8 @@ const mapToSquare=function(Alist){
   return squar
 }
 
-const reduceToTotal= function(Alist){
-  const total=Alist.reduce(x =>{
-    
-  }
-  
-  
-  
-  , {})
+const reduceToTotal= function(Alist, startingPoint){
+  const total=Alist.reduce(x => x + startingPoint ,startingPoint)
 }
 
 

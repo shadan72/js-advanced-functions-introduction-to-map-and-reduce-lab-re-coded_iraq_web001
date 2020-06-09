@@ -20,3 +20,11 @@ const mapToSquare=function(Alist){
   const squar=Alist.map(x => x= x ** 2);
   return squar
 }
+
+const 
+
+
+
+
+
+

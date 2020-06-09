@@ -30,6 +30,7 @@ const reduceToAllTrue= function(Alist){
   
   const allTrue=Alist.reduce((x,startingPoint)=>{
     if(!Alist(x))
+    return false
     return true
   })
   

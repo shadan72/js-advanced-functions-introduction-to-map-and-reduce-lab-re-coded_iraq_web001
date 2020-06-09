@@ -44,10 +44,10 @@ const reduceToAllTrue= function(Alist){
 }
 
 
-const reduceToAllTrue= function(Alist){
+const reduceToAnyTrue= function(Alist){
   
   const allTrue=Alist.reduce((x,startingPoint)=>{
-    if(!!x==true && !!startingPoint==true){
+    if(!!x==true || !!startingPoint==true){
        return true
     }else{
       return false

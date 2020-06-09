@@ -15,3 +15,7 @@ const mapToDouble= function(Alist){
   const double=Alist.map(x => x=x*2)
   return double;
 }
+
+const mapToSquare=function(Alist){
+  const squar=Alist.map(x => x=)
+}

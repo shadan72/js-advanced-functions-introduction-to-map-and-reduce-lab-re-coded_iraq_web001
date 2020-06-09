@@ -17,12 +17,12 @@ const mapToDouble= function(Alist){
 }
 
 const mapToSquare=function(Alist){
-  const squar=Alist.map(x => x= x ** 2);
+  let squar=Alist.map(x => x= x ** 2);
   return squar
 }
 
-const reduceToTotal= function(Alist, startingPoint){
-  const total=Alist.reduce((x,startingPoint) => x + startingPoint);
+const reduceToTotal= function(Alist, val=0){
+  let total=Alist.reduce((x,val) => x + val);
   return total;
 }
 

@@ -10,3 +10,8 @@ const mapToNoChange= function(Alist){
   const NoChange=Alist.map(x => x=x);
   return NoChange;
 };
+
+const mapToDouble= function(Alist){
+  const double=Alist.map(x => x=x*2)
+  return double;
+}

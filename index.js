@@ -21,7 +21,9 @@ const mapToSquare=function(Alist){
   return squar
 }
 
-const 
+const reduceToTotal= function(Alist){
+  const total=Alist.reduce()
+}
 
 
 

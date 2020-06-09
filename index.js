@@ -5,3 +5,4 @@ const mapToNegativize=function(Alist){
   const Negative= Alist.map(x => x=-x);
   return Negative;
 }
+

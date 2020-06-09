@@ -26,7 +26,17 @@ const reduceToTotal= function(Alist, startingPoint){
   return total;
 }
 
-const 
+const reduceToAllTrue= function(Alist){
+  
+  const allTrue=Alist.reduce((x,startingPoint)=>{
+    if(!Alist(x))
+    return true
+  })
+  
+  
+  
+  
+}
 
 
 

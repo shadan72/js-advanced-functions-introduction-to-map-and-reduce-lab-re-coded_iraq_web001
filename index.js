@@ -45,5 +45,11 @@ const reduceToAllTrue= function(Alist){
 
 
 
+const 
+
+
+
+
+
 
 

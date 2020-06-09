@@ -22,7 +22,7 @@ const mapToSquare=function(Alist){
 }
 
 const reduceToTotal= function(Alist, startingPoint){
-  const total=Alist.reduce(x => x + startingPoint ,startingPoint)
+  const total=Alist.reduce(x,startingPoint) => x + startingPoint)
 }
 
 

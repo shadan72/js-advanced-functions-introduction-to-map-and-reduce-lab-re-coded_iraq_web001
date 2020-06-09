@@ -30,9 +30,13 @@ const reduceToTotal= function(Alist, val=0){
 const reduceToAllTrue= function(Alist){
   
   const allTrue=Alist.reduce((x,startingPoint)=>{
-    if(!Alist(x))
+    if(!!x==true && !!startingPoint==true){
+       return true
+    }else{
+      
+    }
     return false
-    return true
+   
   })
   
   

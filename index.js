@@ -26,6 +26,7 @@ const reduceToTotal= function(Alist, startingPoint){
   return total;
 }
 
+const 
 
 
 
